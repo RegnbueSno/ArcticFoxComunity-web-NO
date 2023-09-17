@@ -1,0 +1,51 @@
+
+.img-mod-main{
+  width: 80px;
+  height: 80px;
+  border-width: 2px;
+  border: solid;
+  margin: 0;
+  border-color: blue;
+  position: relative;
+  border-radius: 5px;
+}
+
+
+.img-container{
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  max-width: 85px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  
+}
+
+.images-main{
+  max-width: 80*3px;
+  margin: 0;
+  padding-bottom: 15px;
+  margin-block-start: 0;
+  
+}
+
+.img-mod-main .mod-titles{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  
+}
+.mod-titles{
+  display: block;
+}
+
+.link-bellow{
+  background-color: brown;
+  position: absolute;
+}
+
+.link-bellow-div{
+  position: relative;
+}

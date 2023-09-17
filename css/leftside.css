@@ -1,0 +1,123 @@
+.crew-img1{
+  width: 100px;
+  border: solid;
+  border-width: 3px;
+  margin: -2px 0 0 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: blue;
+  border-radius: 8px;
+}
+
+.crew-img:hover{
+  cursor: pointer;
+}
+
+
+
+.crew-text{
+  font-size: 30px;
+  margin: 0 0 5px 0;
+  font-weight: 700;
+}
+
+.crew-img .crewtip,
+.crew-img2 .crewtip{
+  position: absolute;
+  margin-left: 115px;
+  margin-top: -65px;
+  white-space: nowrap;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+  opacity: 0;
+  font-family: Roboto, Arial;
+  pointer-events: none;
+  z-index: 100;
+  transition: opacity 0.5s;
+  background-image: linear-gradient(90deg, rgb(0, 121, 0), rgb(96, 0, 155));
+}
+.crew-img:hover .crewtip,
+.crew-img2:hover .crewtip{
+  opacity: 1;
+}
+
+.crew-img .tip,
+.crew-img2 .tip{
+  position: absolute;
+  width: 115px;
+  margin-left: 115px;
+  margin-top: -43px;
+  background-image: linear-gradient( rgb(0, 163, 0), rgb(96, 0, 155));
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.crew-img:active .tip,
+.crew-img2:active .tip{
+  opacity: 1;
+}
+
+.title{
+  position: relative;
+}
+
+.title .titletip{
+  position: absolute;
+  background-image: linear-gradient(90deg, rgb(0, 163, 0), rgb(96, 0, 155));
+  font-size: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 3px 6px 3px 6px;
+  border-radius: 15px;
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-top: 5px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s;
+  transition:step-end
+}
+
+.title:hover .titletip{
+  opacity:1;
+}
+
+
+.crew-text-div{
+  margin: 0;
+  pointer-events: none;
+}
+
+.crew{
+  display: inline-block;
+  position: fixed;
+  margin: 0;
+  padding: 0 5px 5px 5px;
+  background-image:url(https://media.freestocktextures.com/cache/3c/10/3c10d8a923d4e14a2105ecab42bc4aee.jpg) ;
+  width: 105px;
+  color: lightgray;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  
+}
+
+.crew-img2{
+  width: 50px;
+}
+
+.crew-text-bottom {
+  pointer-events: none;
+}

@@ -1,0 +1,119 @@
+.title-container {
+  flex-direction: row;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 50px 0;
+  padding: 0 5px 0 5px;
+}
+
+div.title {
+  background-image: linear-gradient(90deg, rgb(0, 163, 0), rgb(96, 0, 155));
+  min-width: 500px;
+  white-space: nowrap;
+  padding: 0 5px 0 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: lightgray;
+  cursor: pointer;
+  position: relative;
+  min-width: 552px
+}
+
+span.link {
+  position: absolute;
+  display: contents;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: black;
+}
+
+a {
+  position: absolute;
+  display: inline;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+
+}
+
+.title a {
+  margin: -61px -5px -61px -5px;
+}
+.img-container a{
+  margin: -109px -42px;
+}
+
+
+.left {
+  min-width: 115px;
+}
+
+.mod-container {
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+  height: auto;
+}
+
+.mod-main {
+
+  min-width: 500px;
+  padding-bottom: 50px;
+  justify-content: center;
+  text-align: center;
+  color: lightgray;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 10px;
+  white-space: nowrap;
+  height: auto;
+
+}
+
+.modleft {
+  min-width: 130px;
+}
+
+
+.bottom-p {
+  font-size: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  white-space: normal;
+  padding: 8px;
+}
+
+.mod-container .nr1 {
+  border: rgb(13, 0, 255) solid;
+  height: 625px;
+  width: 645px;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-image: linear-gradient(rgb(0, 162, 0), rgb(93, 0, 144));
+  min-width: 650px;
+}
+
+.bigimg {
+  width: 60%;
+  border: solid black;
+  border-radius: 25px;
+}
+
+.section {
+  border: black solid;
+  border-radius: 75px;
+  background-color: rgba(128, 0, 128, 0.486);
+}
